@@ -1,41 +1,48 @@
-html {
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
+.sidebar{
+	padding-top:100px;
 }
 
-
-h1 {
-  font-size: 60px;
-  text-align: center;
+.navbarbg{
+  background-image: url("../images/navbar_bg.jpg");
+  background-size: cover;
 }
 
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+.contentbg{
+  background-image: url("../images/content_bg.jpg");
+  background-size: cover;
 }
 
-
-html {
-  background-color: #00539F;
+.mask{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  filter: alpha(opacity=100);
+  opacity: 1; 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999; 
 }
 
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #FF9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+.center{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
 }
 
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
+.center .enter{
+	color: wheat;
+    font-size: 20pt;
+    text-decoration: underline;
+	cursor:pointer;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
+.center .welcome{
+	color: white;
+    font-size: 30pt;
 }
