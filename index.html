@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Meili Vanegas-Hernandez</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Meili Vanegas-Hernandez">
+	<meta name="description" content="Meili Vanegas-Hernandez">
+	<meta property="og:title" content="Meili Vanegas-Hernandez" />
+	<meta property="og:image" content="http://mvanegas10.github.io/images/mvhdez.png" />
+	<link rel="icon" href="./images/favicon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- Angular Material requires Angular.js Libraries -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+	<!-- Materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	
+	<!-- ICONS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Angular Material Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+	<script src="//d3js.org/d3.v3.min.js"></script>
+	<script src="js/d3.tip.v0.6.3.js"></script>
+
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-86419002-2', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body style="margin-bottom: 2cm;">
+	<div>
+		<div class="stuck">
+			<div id="imgContainer">
+				<img style="width:100%;padding:5%" src="./images/mvhdez.png">
+
+				<div>
+					<label class="black">M.Sc. Systems and Computing Engineering (2018)</label>
+					<label class="black" style="padding-bottom: 0.2cm;">B.Sc. Systems and Computing Engineering (2016)</label>
+				</div>
+
+
+				<div style="padding-top: 10%;">
+					<h3><a class="link black" href="#projects">Projects</a></h3>
+					<h3><a class="link black" href="#experience">Experience</a></h3>
+					<h3><a class="link black" href="#education">Education</a></h3>
+					<h3><a class="link black" href="#publications">Publications</a></h3>
+					<h3><a class="link black" href="#presentations">Presentations</a></h3>
+				</div>
+
+				<div class="fotter">
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-2">
+							<h3><a href="mailto:meilivh8@gmail.com" target="_blank" rel="noopener"
+									class="share-button fa fa-envelope"></a></h3>
+						</div>
+						<div class="col-md-2">
+							<h3><a class="share-button fa fa-linkedin" target="_blank"
+									href="https://www.linkedin.com/in/meilivh/"></a></h3>
+						</div>
+						<div class="col-md-2">
+							<h3><a class="share-button fa fa-github" target="_blank"
+									href="https://github.com/mvanegas10"></a></h3>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+					<div class="row">
+						<a style="font-size: 10px;" class="black"
+							href="https://mcescher.com/?attachment_id=10470"
+							target="_blank">Image: Birds Blue from M.C. Escher</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div id="setter" class="row right">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="row" id="interests">
+						<div style="margin-top: 5%;" class="row">
+							<div class="col-md-4"><span class="no-button">
+									<p style="text-align:left;display:inline;">Data Analytics</p>
+								</span></div>
+							<div class="col-md-4"><span class="no-button">
+									<p style="text-align:left;display:inline;">Information Visualization</p>
+								</span></div>
+							<div class="col-md-4"><span class="no-button">
+									<p style="text-align:left;display:inline;">Data Science</p>
+								</span></div>
+						</div>
+					</div>
+					<br>
+					<hr>
+					<br>
+					<div class="row" id="projects">
+						<h3>Projects</h3>
+						<div id="legend"></div>
+						<div style="height: 115px;text-align:center;z-index:100; padding-bottom: 4cm;">
+							<p style="font-size:19px;" id="projectName"></p>
+							<p id="projectURL"></p>
+							<p id="projectDescription"></p>
+							<a id="homepage"></a>
+						</div>
+						<div class="row" id="forceChart"></div>
+					</div>
+					<div id="experience" class="row">
+						<h3 style="margin:0.5cm;">Experience</h3>
+						<table>
+							<tr>
+								<td>
+									<p class="table-title">2019 2020</p>
+								</td>
+								<td class="table-info">
+									<p>Consultant</p>
+									<p><a target="_blank" style="font-style: italic;padding-left: 0cm;"
+											href="https://be.steergroup.com/">Steer</a>
+									</p>
+									<p>Participating in transport model projects in different cities in Latin America.
+										Developing data-driven systems for
+										decision making in transport and urbanism.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="table-title">2018</p>
+								</td>
+								<td class="table-info">
+									<p>Developer</p>
+									<p><a target="_blank" style="font-style: italic;padding-left: 0cm;"
+											href="https://dexon.us/">Dexon</a></p>
+									<p>Participating in the project for processes automation for health public entities.
+										Helping to extract, transform, load
+										(ETL) data to visualize it in interactive dashboards.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="table-title">2017 2018</p>
+								</td>
+								<td class="table-info">
+									<p>Research Assistant</p>
+									<p><a target="_blank" style="font-style: italic;padding-left: 0cm;"
+											href="https://hci.uni-kl.de/">Computer Graphics & HCI Group at TUK</a></p>
+									<p>Designing and implementing a visual analytics tool to support failure detection
+										in manufacturing processes.</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="table-title">2017</p>
+								</td>
+								<td class="table-info">
+									<p>Researcher</p>
+									<p><a target="_blank" style="font-style: italic;padding-left: 0cm;"
+											href="http://alianzacaoba.co/">Alianza Caoba</a></p>
+									<p>Participating in a project along with the Secretary of Finance in Bogota to
+										identify inaccurate taxpayers in real
+										property taxes.
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="table-title">2016</p>
+								</td>
+								<td class="table-info">
+									<p>Junior Researcher</p>
+									<p><a target="_blank" style="font-style: italic;padding-left: 0cm;"
+											href="https://www.i3s.unice.fr/en">I3S and Espace Laboratory at Sophia
+											Antipolis</a></p>
+									<p>Working in the project Transport Oriented Modeling for urban denSification
+										Analysis (TOMSA)/ECOS Nord. Building a urban
+										decision support platform, which holds a Urban Agent-Based Model (ABM) to
+										simulate the relocation of households under a
+										spatial and possibilistic scenario and visualize multiple scenarios.
+									</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<br>
+					<hr>
+					<br>
+					<div class="row" id="education">
+						<h3 style="margin:0.5cm;">Education</h3>
+						<table>
+							<tr>
+								<td>
+									<p class="table-title">2017 - 2018</p>
+								</td>
+								<td class="table-info">
+									<p>M.Sc. Systems and Computing Engineering, Universidad de los Andes [Colombia], TU
+										Kaiserslautern [Germany]</p>
+									<p><a target="_blank" style="font-style: italic;padding-left: 0cm;"
+											href="https://github.com/mvanegas10/BioCicle">A Tool for Summarizing and
+											Comparing Taxonomic Reports for Biological Sequence Alignment Results</a>
+									</p>
+									<p>Advisors: <a target="_blank" href="http://johnguerra.co/"> John Alexis Guerra
+											Gómez</a>,<a target="_blank"
+											href="https://profesores.virtual.uniandes.edu.co/~jhernand/dokuwiki/doku.php">
+											José Tiberio Hernandez</a></p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="table-title">2012 - 2016</p>
+								</td>
+								<td class="table-info">
+									<p>B.Sc. Systems and Computing Engineering, Universidad de los Andes [Colombia]</p>
+									<a target="_blank" style="font-style: italic;padding-left: 0cm;"
+										href="https://univdelosandes.on.worldcat.org/oclc/1008638271">A New Urban
+										Segregation-Growth Coupled Model using a Belief-Desire-Intention Possibilistic
+										Framework</a>
+									<p>Advisor: <a target="_blank"
+											href="https://profesores.virtual.uniandes.edu.co/~jhernand/dokuwiki/doku.php">
+											José Tiberio Hernandez</a></p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<br>
+					<hr>
+					<br>
+					<div class="row" id="publications">
+						<h3 style="margin:0.5cm;">Publications</h3>
+
+						<table>
+							<tr>
+								<td>
+									<p class="table-title">Conference Papers</p>
+								</td>
+								<td class="table-info">
+									<p style="text-align:left !important;font-size:18px;"><a
+											href="https://dl.acm.org/citation.cfm?id=3106486" target="_blank">A new
+											urban segregation-growth coupled model using a belief-desire-intention
+											possibilistic framework (2017) Meili Vanegas-Hernandez, Célia da Costa
+											Pereira, Diego Moreno, Giovanni Fusco, Andrea G. B. Tettamanzi, Michel
+											Riveill, and José Tiberio Hernández.</a></p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<br>
+					<hr>
+					<br>
+					<div class="row" id="presentations">
+						<h3 style="margin:0.5cm;">Presentations</h3>
+						<p style="text-align:left !important;font-size:18px;">BioCicle: A Tool for Summarizing and
+							Comparing Taxonomic Profiles out of Biological Sequence Alignments <a
+								href="http://slides.com/meilivanegashernandez/deck-2" target="_blank">[Available
+								here]</a></p>
+						<ul>
+							<li>
+								<p style="font-size:16px;text-align:justify;">Presentation for my <a
+										href="https://mvanegas10.github.io/#currentProjects">master thesis' defense</a>
+								</p>
+							</li>
+						</ul>
+
+						<p style="text-align:left !important;font-size:18px;">A New Urban Segregation-Growth Coupled
+							Model using a Belief-Desire-Intention Possibilistic Framework <a
+								href="http://slides.com/meilivanegashernandez/deck" target="_blank">[Available here]</a>
+						</p>
+						<ul>
+							<li>
+								<p style="font-size:16px;text-align:justify;">Presentation for the <a
+										href="http://webintelligence2017.com/" target="_blank">2017 IEEE/WIC/ACM
+										International Conference on Web Intelligence (WI'17)</a> in Leipzig, Germany.
+								</p>
+							</li>
+						</ul>
+
+						<p style="text-align:left !important;font-size:18px;">Visualization Teaser <a
+								href="https://mvanegas10.github.io/docs/visualization.pdf" target="_blank">[Available
+								here]</a></p>
+						<ul>
+							<li>
+								<p style="font-size:16px;text-align:justify;">Presentation for the <a
+										href="http://johnguerra.co/classes/webDevelopment_spring_2017/"
+										target="_blank">Web
+										Developing
+										Course</a> teached by <a href="http://johnguerra.co/" target="_blank">John
+										Guerra</a> as part of the
+									undergraduate Systems and Computing Engineering program in Universidad de los Andes.
+								</p>
+							</li>
+						</ul>
+
+						<p style="text-align:left !important;font-size:18px;">Visualizing Biological Taxonomy <a
+								href="http://slides.com/meilivanegashernandez/vbt" target="_blank">[Available here]</a>
+						</p>
+						<ul>
+							<li>
+								<p style="font-size:16px;text-align:justify;">Presentation for the <a
+										href="https://mvanegas10.github.io/#currentProjects">Visualizing Biological
+										Sequence Comparison Summaries for Sequence Alignment Analysis</a> Project's
+									First Prototype.</p>
+							</li>
+						</ul>
+
+					</div>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- // <script src="https://mvanegas10.github.io/js/app.js"></script> -->
+	<script src="/js/app.js"></script>
+</body>
