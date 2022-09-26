@@ -7,4 +7,4 @@ Tech requirements: Bootstrap 5.2, Jquery 3.6
 How to use: derectly run the index page
 design doc: https://github.com/sdhylyy/5610/blob/main/Design%20Doc.pdf
 sides:https://docs.google.com/presentation/d/1Ja2Qh9XOrbtxOiTFB6iUlVv6ljXaiv_Y9gkOmwEKcSM
-video:
+video:https://youtu.be/B00JoG-dHAE
